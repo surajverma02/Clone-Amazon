@@ -1,0 +1,490 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    color: white;
+    display: flex;
+    padding-bottom: 6px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0f1111;
+}
+
+.nav-logo {
+    height: 42px;
+    width: 120px;
+    padding: 0 4px 10px 4px; 
+    margin: 5px 0 10px -15px;
+}
+
+.logo {
+    height: 50px;
+    width: 100%;
+    background: url("amazon_logo.png");
+    background-size: cover;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.add-icon {
+    display: flex;
+}
+
+.add-icon i {
+    transform: translate(-3px,-2px);
+}
+
+.nav-address {
+    height: 42px;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+}
+
+.address-1 {
+    color: #cccccc;
+    font-size: 0.7em;
+    margin-left: 15px;
+}
+
+.address-2 {
+    font-size: 0.9em;
+    margin-left: 2px;
+    font-weight: 600;
+}
+
+.nav-search {
+    width: 868px;    
+    height: 40px;
+    display: flex;
+    border : 3px solid transparent;
+    justify-content: space-evenly;
+}
+
+.nav-search:hover {
+    border-radius: 4px;
+    background-color: #dc963f;
+    border : 3px solid #dc963f;
+}
+
+.search-select {
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1em;
+    border: none;
+    appearance: none;
+    color: ivory;
+}
+
+.search-icon {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #f4b363;
+}
+
+.nav-lang {
+    height: 42px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lang-img {
+    width: 21px;
+    height: 16px;
+    background: url("us_flag.jpeg");
+    background-size: cover;
+}
+
+.lang-select {
+    color: white;
+    font-size: 0.9em;
+    border: none;
+    font-weight: 600;
+    background-color: #0f1111;
+}
+
+.text-upper {
+    font-size: 0.75em;
+}
+
+.text-lower {
+    color: white;
+    font-size: 0.9em;
+    font-weight: 600;
+    border: none;
+    margin-left: -2.5px;
+    background-color: #0f1111;
+}
+
+.nav-text {
+    padding: 4px;
+    padding-bottom: 8px;
+}
+
+.nav-signin {
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-service {
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-cart {
+    height: 42px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+}
+
+
+.panel {
+    height: 39px;
+    display: flex;
+    color: white;
+    padding: 0 10px 0 15px;
+    font-size: 0.9em;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+}
+
+.panel-menu {
+    height: 37px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-menu p {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.panel-ops {
+    width: 100%;
+    height: 37px;
+    display: flex;
+    align-items: center;
+}
+
+.panel-ops p{
+    height: 37px;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    margin: 5px 0 6px 0;
+}
+
+.panel-text {
+    height: 37px;
+    width: 185px;
+    display: flex;
+    padding: 4px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .main-section {
+} */
+
+.main {
+    height: 400px;
+    margin: 0 10px 0 10px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end ;
+    justify-content: center;
+    background-image: url("img_main.jpg");
+}
+
+.main-text {
+    width: 100%;
+    height: 40px;
+    color: #0f1111;
+    font-size: 0.9em;
+    display: flex;
+    position: absolute;
+    top: 375px;
+    left: 25px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px 14px;
+    margin: 0 15px;
+    background-color: white;
+}
+
+.main-text a{
+    width: 100%;
+    color: #007185;
+    text-decoration: none;
+}
+
+.main-text a:hover{
+    color: #dc963f;
+    text-decoration: underline;
+}
+
+.shop {
+    display: flex;
+    margin: 0 15px;
+}
+
+.box {
+    width: 25%;
+    height: 420px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.box h2 {
+    width: 100%;
+    height: 30px;
+    color: #0f1111;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.box h2 {
+    cursor: text;
+}
+
+.box div {
+    width: 100%;
+    height: 280px;
+    margin: 20px 0;
+}
+
+.box div {
+    cursor: pointer;
+}
+
+.box a {
+    height: 20px;
+    font-size: 0.95em;
+    color: #007185;
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: #dc963f;
+    text-decoration: underline;
+}
+
+.signin { 
+    width: 100%;
+    height: 130px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+
+.signin-content { 
+    width: 250px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-upper-text {
+    height: 15px;
+    width: 100%;
+    font-size: 0.82em;
+    font-weight: 40;
+    text-align: center;
+}
+
+.sign-middle-text {
+    height: 30px;
+    width: 100%;
+    font-size: 0.75em;
+    margin: 5px 0;
+    display: flex;
+    font-weight: 650;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ffc905;
+}
+
+.sign-lower-text {
+    height: 15px;
+    width: 100%;
+    font-size: 0.6em;
+    text-align: center;
+}
+
+.sign-lower-text a{
+    text-decoration: none;
+    color: #007185;
+}
+
+.sign-lower-text a:hover{
+    color: #dc963f;
+}
+
+.panel-1 {
+    height: 50px;
+    width: 100%;
+    font-size: 0.9em;
+    color: white;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-2 {
+    height:350px ;
+    display: flex;
+    padding: 40px 0;
+    justify-content: center;
+    background-color: #232F3e;
+}
+
+.panel-2 ul {
+    margin: 0 40px;
+}
+
+.panel-2 li {
+    color: white;
+    margin: 5px 0;
+    list-style: none;
+}
+
+.panel-2 li a{
+    color: #dddddd;
+    font-size: 0.85em;
+    text-decoration: none;
+}
+
+.font {
+    font-size: 1.1em;
+    font-weight: 5250;
+}
+
+.panel-2 li a:hover {
+    text-decoration: underline;
+}
+
+.panel-3 {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.3px solid #ccc;
+    background-color: #232F3e;
+}
+
+.foot-logo {
+    width: 90px;
+    height: 35px;
+    padding: 0 7px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+
+.foot-detail {
+    display: flex;
+}
+
+.foot-lang {
+    width: 120px;
+    height: 35px;
+    border: 1px solid #ccc;
+    margin: 0 5px 0 70px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot-money {
+    width: 150px;
+    height: 35px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot-country {
+    width: 140px;
+    height: 35px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel-4 {
+    width: 100%;
+    height: 90px;
+    color: #ddd;
+    background-color: #131a22;
+    display: flex;
+    font-size: 0.7em;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot p a {
+    text-decoration: none;
+    color: #ddd;
+    font-weight: 540;
+    margin-right: 10px;
+}
+
+.foot p a:hover {
+    text-decoration: underline;
+}
+
+.foot p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+}
